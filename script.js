@@ -3,7 +3,7 @@ const audioElement = document.getElementById('audio');
 
 // Disable/Enable Button
 function toggleButton() {
-    button.diasbled = !button.diasbled;
+    button.disabled = !button.disabled;
 }
 
 // Passing Joke to VoiceRSS API
